@@ -14,4 +14,3 @@ Projeto desenvolvido de software que le um arquivo com a matriz incidência dos 
 - [ ] O grafo é regular?
 - [ ] O grafo é bipartido? Em caso afirmativo dê uma bipartição dos vértices do grafo.
 - [ ] O grafo é bipartido completo? Em caso afirmativo dê uma bipartição dos vértices do grafo
-
