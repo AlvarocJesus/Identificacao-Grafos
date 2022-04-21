@@ -9,19 +9,14 @@ n = 0
 for i in arquivo.readlines():
 	matriz.append(i.strip().split())
 matriz.pop()
-# print(matriz)
 
 # Verifica se o grafo e simples
 for linha in range(len(matriz)):
 	for coluna in range(len(matriz[linha])):
-		# print('%s' % matriz[linha][coluna], end=' ')
 		sequency.append(matriz[linha][coluna])
 		if(int(matriz[linha][coluna]) == 1):
 			simples += 1
-			# print(f'Simples: {simples}')
-	# print()
 	n+=1
-	print(f'N: {n}')
 
 # Verifica se existe laco
 for linha in range(len(matriz)):
@@ -34,14 +29,13 @@ for linha in range(len(matriz)):
 complete = (n * (n-1))/2
 print(f'Complete: {n-1}')
 
-
 print(simples)
 if(simples == 11):
 	print('O grafo e simples e completo\n')
 	print(simples)
 else:
 	print('O grafo nao e simples e completo\n')
-	# print(simples)
+	print(simples)
 
 print('Vertices com laços:')
 for i in range(len(laco)):
