@@ -14,7 +14,7 @@ matriz.pop()
 for linha in range(len(matriz)):
 	for coluna in range(len(matriz[linha])):
 		sequency.append(matriz[linha][coluna])
-		if(int(matriz[linha][coluna]) == 1):
+		if(int(matriz[linha][coluna]) == 1 and linha != coluna):
 			simples += 1
 	n+=1
 
@@ -30,7 +30,7 @@ complete = (n * (n-1))/2
 print(f'Complete: {n-1}')
 
 print(simples)
-if(simples == 11):
+if(simples == (11*11)):
 	print('O grafo e simples e completo\n')
 	print(simples)
 else:
