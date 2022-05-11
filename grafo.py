@@ -1,3 +1,10 @@
+"""
+Integrantes do grupo:
+Alvaro Coelho Jesus
+Rodrigo Moreira Doraciotto
+Kaique da Silva Fernandes
+"""
+
 def main():
 	arquivo = open("A.txt", "r")
 	conteudo = arquivo.readlines()
